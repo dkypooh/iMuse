@@ -13,9 +13,9 @@ iMuse
  + Mogoose存储数据
 ```
 
-##1.1 前端界面设计   	
-
-1. 脑图设计
+##1.1 前端界面设计
+	
+1. 脑图设计				
 > <img src="./doc/client-mind.png" width="600" height="400" alt="脑图" />
 
 2. 原型交互图 
