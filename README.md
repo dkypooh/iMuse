@@ -23,3 +23,7 @@ iMuse
 ------------
 > <img src="./doc/draft-2.png" width="600" height="400" alt="交互草图" />
 
+##1.2 前端详细设计
+>
+><img src="./doc/detail.png" width="700" height="400" alt="交互草图" />
+
