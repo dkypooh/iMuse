@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+   <script type="text/javascript" src="/socket.io/socket.io.js"></script> 
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+     <script type="text/javascript">
+		 // var socket = io.connect();
+		 // socket.emit("sendchat",{name:"sss"});
+    </script>
+
+
+    <div ui-view></div>
+    <script type="text/javascript" src="/javascripts/lib/require.min.js"></script>
+    <script type="text/javascript" src="/javascripts/lib/angular.js"></script>
+    <script type="text/javascript" src="/javascripts/lib/angular-ui-router.js"></script>
+    <script type="text/javascript" src="/javascripts/module.js"></script>
+    <script type="text/javascript" src="/javascripts/app.js"></script>
+      
+  </body>
+</html>
