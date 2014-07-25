@@ -1,0 +1,25 @@
+<div class="g-mn m-trend" ng-controller="chatCtrl">
+ <!-- 用户列表 -->
+	<div ng-controller="activeUsersCtrl" class="users">
+		<ul>
+			<li ng-repeat="(key, value) in list" ng-click="onConnect(value)">{{value}}</li>
+		</ul>
+	</div>
+ <!-- 聊天室 -->
+	<div class="waiting m-chat-room">
+		<div ng-controller="recieveMsgCtrl" class="m-revmsg">
+				<ul ng-repeat="(key, value) in recMsgs" ng-switch on="value.p">
+							<li class="f-cb u-left" ng-switch-when='left'><label class="left">{{value.msg}}</label></li>
+						  <li class="f-cb u-right" ng-switch-when='right'><label class="right">{{value.msg}}</label></li>
+				</ul>
+		</div>
+		<div ng-controller="sendMsgCtrl" class="m-sendmsg">	
+			<div class="u-nav-icon">
+			</div>
+			<div class="f-cb">
+				<textarea class="txt" ng-model="msgBody"></textarea>	
+				<input class="send" type="button" value="send" ng-click="send()"/>
+			</div>
+		</div>
+	</div>	
+</div>

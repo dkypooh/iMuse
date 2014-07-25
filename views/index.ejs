@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/func.css' />
+
+   <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+   <script type="text/javascript" src="/javascripts/lib/md5.min.js"></script>
+  </head>
+  <body>
+    <% include ./head %>
+    <div  ng-controller="indexCtrl">
+      <div class="g-sd">
+        <div class="m-setting">
+          <div class="icon"><img src="" width="40" height="40" alt="{{userName}}"></div>
+          <div class="m-nav">
+            <div class="msg"><a href="/#/{{userName}}/chat"><img src="" width="30" height="30" alt="聊天信息"></a></div>
+            <div class="users"><a href="/#/{{userName}}/users"><img src="" width="30" height="30" alt="用户列表"></a></div>
+          </div>
+          <div class="setting">
+            <a><img src="" width="30" height="30px" alt="设置"></a>
+          </div>
+        </div>
+      </div>
+      <div ui-view class="g-mnc"></div>  
+    </div>
+      
+    
+    <% include ./footer %>
+    
+    <script type="text/javascript" src="/javascripts/lib/require.min.js"></script>
+    <script type="text/javascript" src="/javascripts/lib/angular.js"></script>
+    <script type="text/javascript" src="/javascripts/lib/angular-ui-router.js"></script>
+    <script type="text/javascript" src="/javascripts/module.js"></script>
+    <script type="text/javascript" src="/javascripts/app.js"></script>
+      
+  </body>
+</html>
