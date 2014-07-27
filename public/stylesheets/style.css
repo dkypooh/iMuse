@@ -1,0 +1,49 @@
+body,html {width:100%;font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;overflow: hidden;margin:0;}
+
+
+/*.g-hd{height: 20px;width:100%;background-color:#d2d2d2;}
+.g-bd{height: 100%}
+.g-sd,.g-mnc{marign:20px 0 10px 20px;height:100%;background-color: #d1d1d1}
+.g-sd{width:30px;float: left;}
+.g-mnc{float:left;margin-left: 30px;}
+.g-ft{height: 20px;background-color: #a1a1a1}*/
+
+.g-hd,.g-sd,.g-mnc,.g-ft{position:absolute;left:0;}
+.g-hd,.g-ft{width:100%;}
+.g-sd,.g-mnc{top:30px;bottom:50px;height: 100%;overflow: auto;}
+.g-hd{top:0;height: 30px;background-color: #d2d2d2}
+.g-sd{width:60px;background-color: #2F3035}
+.g-mnc{left:60px;right:0;overflow: hidden}
+.g-ft{bottom:0;height: 50px;background-color: #d4d4d4}
+
+
+/* 左栏导航CSS*/
+
+.m-setting{padding:10px;}
+.m-setting .icon{margin-top:10px;}
+.m-nav{margin: 20px auto;width:30px;}
+.m-nav .msg,.m-nav .users{padding-top:20px;}
+.m-setting .setting{position: absolute;bottom:100px;left:15px;}
+
+/* 头部css*/
+.u-head-tlt{height: 30px;line-height: 30px;display:block;text-align: center;}
+.m-trend .users{width:150px;position: absolute;top:0;bottom:0;border-right: 1px solid #d1d1d1}
+.m-trend .users ul{list-style: none;padding:0;}
+.m-trend .users li{height:40px;border-top:1px solid #d2d2d2;line-height: 40px}
+.m-trend .users li:hover{background-color: #d1d1d1}
+
+.m-trend .waiting{right:0;position: absolute;left:150px;top:0;bottom:0;}
+
+.m-trend .waiting .tlt{margin-top:-6px;position: absolute;top:50%;width:100%;text-align: center}
+
+
+.m-sendmsg{position:absolute;left:0;right:0;bottom:80px;height: 80px;}
+.m-sendmsg .txt{width:100%;height: 80px}
+.m-sendmsg .send{position:absolute;width:80px;bottom:0;right:0;}
+
+.m-chat-room .left{float:left; margin-left:10px;height:40px;line-height: 40px;}
+.m-chat-room .right{float:right; margin-right:10px;height:40px; line-height:40px;}
+.m-chat-room .u-left{background-color: #DBE1FF}
+.m-chat-room .u-right{background-color: #ECFFDB}
+
+.m-revmsg{overflow: scroll;position: absolute;top: 0;right: 0;bottom: 143px;left: 0;}
