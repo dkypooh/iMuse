@@ -28,12 +28,12 @@ CSS现在只写了布局，没有设计，到时候用bootstrap.css套用
 ><img src="./doc/detail.png" width="700" height="400" alt="交互草图" />
 
 
-##1.3 初步效果图
-+ 登入界面
+##1.3 初步效果图			
++ 登入界面				
 > <img src="./doc/show-1.png" width="600" height="400" alt="交互草图" />
-+ 两个客户端建立连接
++ 两个客户端建立连接			
 > <img src="./doc/show-2.png" width="600" height="400" alt="交互草图" />
-+ 双人会话
++ 双人会话				
 > <img src="./doc/show-3.png" width="600" height="400" alt="交互草图" />
 ----------
 注：	
