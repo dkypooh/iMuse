@@ -9,8 +9,8 @@
 	<div class="waiting m-chat-room">
 		<div ng-controller="recieveMsgCtrl" class="m-revmsg">
 				<ul ng-repeat="(key, value) in recMsgs" ng-switch on="value.p">
-							<li class="f-cb u-left" ng-switch-when='left'><label class="left">{{value.msg}}</label></li>
-						  <li class="f-cb u-right" ng-switch-when='right'><label class="right">{{value.msg}}</label></li>
+							<li class="f-cb u-right" ng-switch-when='left'><label class="right">{{value.msg}}</label></li>
+						  <li class="f-cb u-left " ng-switch-when='right'><label class="left">{{value.msg}}</label></li>
 				</ul>
 		</div>
 		<div ng-controller="sendMsgCtrl" class="m-sendmsg">	
